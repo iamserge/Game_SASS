@@ -1,0 +1,23 @@
+{
+  "name": "game-sass-setup",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt-image-embed": "^0.3.3"
+  },
+  "dependencies": {
+    "glob": "^6.0.4",
+    "load-grunt-tasks": "~2.0.0",
+    "grunt" : "*",
+    "grunt-contrib-cssmin": "~0.11.0",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "scripts": {
+    "install": "node scripts/install.js",
+    "watch": "grunt watch"
+  },
+  "main": "index.js",
+  "author": "Jim Sheen - http://www.sheendigitaldesign.com",
+  "license": "ISC",
+  "description": "Jim's Grunt Bower Boilerplate for Initial Project Setup"
+}

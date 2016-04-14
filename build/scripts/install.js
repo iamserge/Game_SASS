@@ -1,0 +1,1 @@
+console.log('install complete - run grunt dev to compile and watch \n or run grunt watch to watch for changes to scss files')
