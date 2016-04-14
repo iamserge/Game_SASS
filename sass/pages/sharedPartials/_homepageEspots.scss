@@ -1,0 +1,64 @@
+.homePageEspots {
+	width: 100%;
+	display: table;
+	margin-bottom: 20px;
+
+	> ul {
+		display: table-cell;
+		background: white;
+		padding: 10px;
+	}
+
+	li {
+		vertical-align: top;
+		display: inline-block;
+		padding: 10px;
+
+		span {
+
+			position: absolute;
+			bottom: 10px;
+			left: 0;
+			width: 100%;
+			color: black;
+			> * {
+				background: rgba(255, 255, 255, 0.7);
+				padding: 4px 12px;
+				float: left;
+				clear: both;
+			}
+		}
+	}
+
+	a {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+
+	.primaryEspots {
+		width: 67.7%;
+		border-right: 20px solid #f7f7f7;
+
+		li {
+			width: 50%;
+
+			&:first-of-type {
+				float: left;
+			}
+		}
+	}
+
+	.secondaryEspots {
+		width: 32.3%;
+
+		li {
+			width: 100%;
+		}
+	}
+}
